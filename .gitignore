@@ -1,0 +1,17 @@
+*~
+*.pyc
+#*
+dist/
+build/
+*.egg-info/
+*.scad
+*.gro
+*.pdb
+
+README\.md\.1
+
+.ipynb_checkpoints/
+poetry.lock
+.vscode
+.idea
+
