@@ -2,6 +2,12 @@
 
 A GenIce3 exporter plugin that writes an ice hydrogen-bond network as an [OpenSCAD](https://openscad.org) pipe model (`.scad`).
 
+![Ice Ih, 2×2×2, as pipework](ice.png)
+
+```bash
+genice3 1h --rep 2 2 2 -e "plumber :fn 60 :scale 40 :R 0.04"
+```
+
 Each oxygen site is a joint. Hydrogen bonds that lie inside the cell are straight pipes. The joint depends on how many of those bonds remain:
 
 - degree 1: end plug
